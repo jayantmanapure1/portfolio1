@@ -1,0 +1,65 @@
+.img-user{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.social-container{
+    display: block;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgb(46, 45, 45);
+  
+
+}
+
+.social-ico{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    
+}
+.project-img{
+    width: 700px;
+    border-radius: 10px 10px 10px 10px;
+}
+.project-img1{
+    height:300px;
+}
+.project-container{
+    box-shadow: 0px 0px rgb(39, 38, 38);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .project-img{
+        width:450px
+    }
+    .project-img1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        
+    }
+}
+
+
+/*##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .project-img{
+        width:350px;
+    }
+    .project-img1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 20px;
+        
+    }
+
+}
